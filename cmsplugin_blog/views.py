@@ -14,7 +14,7 @@ from django.http import Http404
 from django.shortcuts import redirect
 from django.utils.translation import ugettext_lazy as _
 
-from cms.middleware.multilingual import has_lang_prefix
+from utils import has_lang_prefix
 from menus.utils import set_language_changer
 
 from simple_translation.middleware import filter_queryset_language
